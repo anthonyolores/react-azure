@@ -27,8 +27,11 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
 - script: |
+    git config user.email "tonyoolores@gmail.com" 
+    git config user.name "anthonyolores"
     npm install
     npm run build
+    npm run deploy -- -r https://$(github_pat)@github.com/react-azure-test.git
   displayName: 'npm install and build'
   
   
