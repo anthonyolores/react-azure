@@ -19,7 +19,7 @@ steps:
     git config user.name "anthonyolores"
     npm install
     npm run build
-    npm run deploy -- -r https://$(github_pat)@github.com/react-azure-test.git
+    npm run deploy -- -r https://github.com/anthonyolores/react-azure-test.git
   displayName: 'npm install and build'
 - task: ArchiveFiles@2
   inputs:
