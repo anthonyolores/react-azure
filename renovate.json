@@ -11,5 +11,6 @@
             "automerge": true
         }
     ],
-    "commitMessagePrefix": "Renovate Bot PR"
+    "commitMessagePrefix": "Renovate Bot PR",
+    "enabled": false
 }
